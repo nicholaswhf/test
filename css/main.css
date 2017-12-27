@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* CSS Document */
+
+header
+{
+	background-image: url(../img/img16.gif);
+	background-size: cover;
+	background-attachment:fixed;
+}
+nav
+{
+	background-color:rgba(0,0,0,0.5);
+	height:50px;
+}
+nav ul
+{
+	list-style: none;
+	margin:0px;
+}
+nav ul li
+{
+	display:inline-block;
+	line-height:50px;
+	float: right;
+	margin-right: 20px;
+}
+nav ul li a
+{
+	height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #eee;
+	font-size: 10px;
+}
+nav ul li.logo
+{
+	float: left;
+	font-size: 20px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	margin-left: 2px;
+}
+
+.logo a
+{
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+#banner
+{
+	background: transparent;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 600px;
+
+}
+#banner  .inner
+{
+	max-width: 500px;
+	margin-left: 900px;
+	position: relative;
+	top: 160px;
+}
+#banner  .inner h1
+{
+	color: #eee;
+	font-family:"新宋体";
+	font-size: 50px;
+}
+
+#banner .inner p
+{
+	color: #eee;
+	font-family:"宋体";
+	font-size: 10px;
+	margin-right:20px;
+}
+.sub-line
+{
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#banner .inner .reading
+{
+	margin-top: 150px;
+}
+
+.wrapper
+{
+	text-align: center;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.hr
+{
+	margin: 20px auto;
+}
+
+.cast
+{
+	margin-top: 100px;
+	background-image: url(../img/img8.gif);
+	background-size: cover;
+	background-attachment:fixed;
+	padding: 100px;
+	text-align: center;
+	font-family: "宋体";
+	height: 1000px;
+	color: #eee;
+}
+.wrapper h2
+{
+	font-size:32px;
+}
+h3
+{
+	font-size:15px;
+}
+.cast p
+{
+	font-family: "宋体";
+	font-size:15px; 
+}
+.icon-group .icon
+{
+	display: inline-block;
+	width: 60px;
+	height: 19px;
+	font-size: 10px;
+	border-width: thick;
+	transform: rotate(0deg);
+	margin: 20px;
+	padding: 10px;
+
+	
+}
+
+.fiction
+{
+	margin-top: 100px;
+	background：#FFF;
+	padding: 100px;
+	text-align: center;
+	font-family: "新宋体";
+}
+
+.fiction .fiction-cover
+{
+	color:#eee;
+	height: 300px;
+	background-size: cover;
+	background-image: url(../img/img6.jpeg); 
+	background-attachment: fixed;
+	text-align: center;
+	padding: 200px;
+}
+
+.fiction-cover h1
+{
+	margin-top: 100px;
+}
+
+.fiction .fiction-content
+{
+	color:#000;
+	
+	background-image: url(../img/img9.jpeg);
+	padding: 100px;
+}
+
+
+.fiction .fiction-content .fiction-tittle
+{
+	height: 150px;
+	background: #eee;
+	text-align: center;
+	padding-top: 120px;
+}
+.fiction-tittle h1
+{
+	font-size: 20px;
+
+}
+
+.fiction-tittle h3
+{
+	font-size: 10px;
+
+}
+
+#tittle
+{
+	font-family: "宋体";
+}
+#tittle ul
+{
+	margin:0px;
+	list-style: none;
+}
+#tittle ul li
+{
+	line-height:50px;
+	padding: 6px;
+	
+}
+#tittle ul li a
+{
+	height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	color: #eee;
+	font-weight: bolder;
+	font-size: 15px;
+	margin-right: 30px;
+}
+
+#tittle ul li a:hover
+{
+	color: #000;
+}
+.fiction .img-section
+{
+	width: 35%;
+}
+
+
+.img-section img
+{
+	width: 100%;
+	height:100%;
+}
+
+.fiction-text
+{
+	background: #eee;
+	margin-top: 0px;
+	text-align: left;
+	height:auto;
+}
+
+
+.fiction-text p
+{
+	margin-left: 210px;
+	margin-right: 210px;
+	font-family: "新宋体";
+	font-weight: bolder;
+	font-size: 15px;
+}
+.fiction .text-section
+{
+	width: 65%;
+}
+
+.fiction-preview > div
+{
+	float: left;
+}
+.fiction-preview:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
+.text-section
+{
+	positive:relative;
+	top:20px;
+	left:30px;
+}
+.text-section h2
+{
+	margin-top:120px;
+	margin-left:130px;
+	font-family:"宋体";
+}
+
+.eassy
+{
+	margin-top: 100px;
+	background：#FFF;
+	padding: 100px;
+	text-align: center;
+	font-family: "新宋体";
+}
+
+.eassy .eassy-cover
+{
+	color:#eee;
+	background-size: cover;
+	background-image: url(../img/img2.jpeg); 
+	background-attachment: fixed;
+	text-align: center;
+	padding: 200px;
+}
+
+.eassy-cover h1
+{
+	margin-top: 100px;
+}
+.eassy .img-section
+{
+	width: 35%;
+}
+
+
+.eassy .eassy-content
+{
+	color:#000;
+	
+	background-image: url(../img/img12.jpeg);
+	background-size: cover;
+	padding: 100px;
+}
+
+.eassy .eassy-content .eassy-tittle 
+{
+	height: 150px;
+	background: #eee;
+	text-align: center;
+	padding-top: 120px;
+}
+.eassy .eassy-content .eassy-tittle h1
+{
+	font-family: "新宋体";
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.eassy-tittle h3
+{
+	font-size: 10px;
+
+}
+
+.eassy-content .img-section
+{
+	padding: 100px;
+	margin: 0 auto;
+	width: 30%;
+
+}
+
+
+.eassy .eassy-content .eassy-text
+{
+	margin-top: 0px;
+	text-align: left;
+	background: #eee;
+
+}
+
+.eassy-text p
+{
+	margin-left: 210px;
+	margin-right: 210px;
+	font-family: "新宋体";
+	font-weight: bolder;
+	font-size: 15px;
+}
+footer
+{
+	background: #eee;
+	color: #000;
+	min-height: 100px;
+	text-align: center;
+}
+footer ul
+{
+	list-style: none;
+}
+footer ul li
+{
+	display:inline-block;
+	line-height:50px;
+	padding: 20px;
+}
+footer ul li a
+{
+	height: 50px;
+	text-decoration: none;
+	display: inline-block;
+	height: inherit;
+	font-size: 10px;
+	color: #000;
+}
+.poem
+{
+	margin-top: 100px;
+	background：#FFF;
+	padding: 100px;
+	text-align: center;
+	font-family: "新宋体";
+}
+
+.poem .poem-cover
+{
+	color:#eee;
+	
+	background-size: cover;
+	background-image: url(../img/img1.jpeg); 
+	background-attachment:fixed;
+	text-align: center;
+	padding: 200px;
+}
+
+.poem-cover h1
+{
+	margin-top: 100px;
+}
+
+.poem .poem-content
+{
+	color:#000;
+	height: 900px;
+	background-image: url(../img/img10.jpg);
+	padding: 100px;
+}
+
+.poem .poem-content .poem-tittle 
+{
+	height: 150px;
+	background: #eee;
+	text-align: center;
+	padding-top: 120px;
+}
+.poem .poem-content .poem-tittle h1
+{
+	font-family: "新宋体";
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.poem-tittle h3
+{
+	font-size: 10px;
+
+}
+
+.poem-content .img-section
+{
+	padding: 100px;
+	margin: 0 auto;
+	width: 30%;
+
+}
+
+
+.poem .poem-content .poem-text
+{
+	margin-top: 0px;
+	text-align: center;
+	background: #eee;
+
+}
+
+.poem-text p
+{
+	margin-left: 210px;
+	margin-right: 210px;
+	font-family: "新宋体";
+	font-weight: bolder;
+	font-size: 15px;
+}
